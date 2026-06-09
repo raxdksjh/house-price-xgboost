@@ -1,4 +1,3 @@
-:::writing{variant="standard" id="81752"}
 import streamlit as st
 import pandas as pd
 import joblib
@@ -98,4 +97,3 @@ if st.button("🔮 Predict House Price", use_container_width=True):
     st.success(
         f"🏡 Estimated House Price: ${prediction[0]:,.2f}"
     )
-:::
